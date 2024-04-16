@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="7.0.0" timestamp="2024-04-16T17:01:54.570">
+<file name="src/badsmelldetector/switchstatementdetector/SwitchStatementVisitor.java">
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Code Style" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+AtLeastOneConstructor: Each class should declare at least one constructor
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Field 'switchStatement' may be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Best Practices" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="UseDiamondOperator" ruleset="Code Style" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ArrayList&lt;&gt;()`
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'node' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="MissingOverride" ruleset="Best Practices" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+MissingOverride: The method 'visit(SwitchStatement)' is missing an @Override annotation.
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'visitor' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Best Practices" package="badsmelldetector.switchstatementdetector" class="SwitchStatementVisitor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+</pmd>
