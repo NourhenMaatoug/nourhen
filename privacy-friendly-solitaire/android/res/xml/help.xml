@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/help_usage">
+
+
+           <Preference android:title="@string/help_undo"
+               android:selectable="false"
+               android:icon="@drawable/ic_undo_black_24dp"
+               android:summary="@string/help_undo_summary"/>
+
+           <Preference android:title="@string/help_redo"
+               android:selectable="false"
+               android:icon="@drawable/ic_redo_black_24dp"
+               android:summary="@string/help_redo_summary"/>
+
+           <Preference android:title="@string/help_foundation"
+               android:selectable="false"
+               android:icon="@drawable/glyphicons_shake"
+               android:summary="@string/help_foundation_summary"/>
+
+           <Preference android:title="@string/help_hint"
+               android:selectable="false"
+               android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+               android:summary="@string/help_hint_summary"/>
+
+        <Preference android:title="@string/sel_card"
+            android:selectable="false"
+            android:icon="@drawable/select_card"
+            android:summary="@string/sel_card_summary"/>
+
+        <Preference android:title="@string/help_save"
+            android:selectable="false"
+            android:summary="@string/help_save_summary"/>
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/rules">
+
+        <Preference android:title="@string/rules"
+            android:key="rule"
+            android:layout="@layout/help_rules"
+            android:selectable="true">
+        </Preference>
+
+
+    </PreferenceCategory>
+
+
+       <PreferenceCategory android:title="@string/help_privacy_heading">
+
+           <Preference
+               android:summary="@string/help_permission_answer"
+               android:title="@string/help_permission"/>
+       </PreferenceCategory>
+
+   </PreferenceScreen>
